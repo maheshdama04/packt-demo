@@ -1,4 +1,4 @@
-# Packt Assesment 
+# Packt Assessment 
 
 This is Laravel + ReactJS app with the integration of Packt Products and Product Detail APIs.
 
