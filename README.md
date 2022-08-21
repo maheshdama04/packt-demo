@@ -31,8 +31,17 @@ npm run dev
 
 Before running the app, create `.env` file and copy the content of `.env.example` file to `.env` file.
 
-Set the `APP_URL` to the URL of the app. e.g. if it's http://127.0.0.1:8000 so in .env file set
+Set the `APP_URL` to the URL of the app. e.g. if it's http://127.0.0.1:8000 so in .env file set...
 ```bash
 APP_URL=http://127.0.0.1:8000
 ```
 
+To run the app go to the app directory and enter the following command in the terminal.
+```bash
+php artisan serve
+```
+
+If you get an error in the browser related to key like... `No application encryption key has been specified.` run the following command in the terminal to generate the new key.
+```bash
+php artisan key:generate
+```
