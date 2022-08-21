@@ -10,6 +10,8 @@ Before jumping in, you'll want to make sure you have the system requirements met
 - Laravel 8 ([Installation Guide](https://laravel.com/docs/5.8))
 - NodeJS v16.13.0 ([Installation Guide](https://nodejs.org/ru/blog/release/v16.13.0/))
 
+After downloading the code, go the code folder and follow the below steps.
+
 To install PHP/Laravel dependancies:
 
 ```bash
