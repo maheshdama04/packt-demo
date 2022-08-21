@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul.custom-paginate {
+  display: flex;
+}
+
+ul.custom-paginate li {
+  
+  display: inline-block;
+  border-radius: 0;
+  /* align-content: start; */
+  margin: 1px;
+}
+
+ul.custom-paginate li a {
+  vertical-align: middle;
+  white-space: nowrap;
+  min-width: 20px;
+  border: 1px solid #e9e9e9;
+  padding: 5px 8px;
+  background: white;
+}
+
+ul.custom-paginate li.selected a {
+  color: #fff;
+    background: #cb5e00;
+}
